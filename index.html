@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="calculadora">
+        <h2>Calculadora</h2>
+
+        <input type="text" id="pantalla" disabled>
+
+        <div class="botones">
+    <button data-valor="C">C</button>
+    <button data-valor="←">←</button>
+    <button data-valor="/">/</button>
+    <button data-valor="*">*</button>
+
+    <button data-valor="7">7</button>
+    <button data-valor="8">8</button>
+    <button data-valor="9">9</button>
+    <button data-valor="-">-</button>
+
+    <button data-valor="4">4</button>
+    <button data-valor="5">5</button>
+    <button data-valor="6">6</button>
+    <button data-valor="+">+</button>
+
+    <button data-valor="1">1</button>
+    <button data-valor="2">2</button>
+    <button data-valor="3">3</button>
+    <button data-valor="=" class="igual">=</button>
+
+    <button data-valor="0" class="cero">0</button>
+    <button data-valor=".">.</button>
+</div>
+
+    </div>
+
+    <div class="historial">
+        <h3>Historial</h3>
+        <ul id="lista"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
